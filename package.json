@@ -2,19 +2,29 @@
   "name": "vsce-cuid-generator",
   "displayName": "vsce-cuid-generator",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "publisher": "axel-blade",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axel-blade/vsce-cuid-generator.git"
+  },
   "engines": {
     "vscode": "^1.92.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Snippets"
+  ],
+  "keywords": [
+    "CUID"
   ],
   "activationEvents": [],
   "main": "./extension.js",
+  "icon": "./images/logo.png",
   "contributes": {
     "commands": [
       {
-        "command": "extension.insertCUID",
+        "command": "cuid.insert",
         "title": "Insert CUID"
       }
     ]
@@ -28,12 +38,12 @@
     "@paralleldrive/cuid2": "2.2.2"
   },
   "devDependencies": {
-    "@types/vscode": "^1.92.0",
     "@types/mocha": "^10.0.7",
     "@types/node": "20.x",
-    "eslint": "^8.57.0",
-    "typescript": "^5.4.5",
+    "@types/vscode": "^1.92.0",
     "@vscode/test-cli": "^0.0.9",
-    "@vscode/test-electron": "^2.4.0"
+    "@vscode/test-electron": "^2.4.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5"
   }
 }
