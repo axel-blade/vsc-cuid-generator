@@ -2,7 +2,7 @@
   "name": "vsce-cuid-generator",
   "displayName": "vsce-cuid-generator",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "publisher": "axel-blade",
   "repository": {
     "type": "git",
