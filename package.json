@@ -1,6 +1,6 @@
 {
-  "name": "vsc-cuid-generator",
-  "displayName": "vsc-cuid-generator",
+  "name": "vsce-cuid-generator",
+  "displayName": "vsce-cuid-generator",
   "description": "",
   "version": "0.0.1",
   "engines": {
